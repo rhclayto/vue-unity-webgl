@@ -18,7 +18,9 @@
   export default {
     props: ['src', 'module', 'width', 'height', 'externalProgress', 'unityLoader'],
     components: {
-      PortalVue,
+      Portal,
+      PortalTarget,
+      MountingPortal,
     },
     name: 'UnityWebGL',
     data () {
