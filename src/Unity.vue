@@ -15,7 +15,7 @@
   import Vue from 'vue'
 
   export default {
-    props: ['src', 'module', 'width', 'height', 'externalProgress', 'unityLoader', 'hideFooter'],
+    props: ['src', 'module', 'width', 'height', 'externalProgress', 'unityLoader'],
     name: 'UnityWebGL',
     data () {
       return {
