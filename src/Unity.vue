@@ -13,9 +13,13 @@
 
 <script>
   import Vue from 'vue'
+  import Unity from 'vue-unity-webgl'
 
   export default {
     props: ['src', 'module', 'width', 'height', 'externalProgress', 'unityLoader'],
+    components: {
+      Unity,
+    },
     name: 'UnityWebGL',
     data () {
       return {
