@@ -13,12 +13,12 @@
 
 <script>
   import Vue from 'vue'
-  import Unity from 'vue-unity-webgl'
+  import PortalVue from 'portal-vue'
 
   export default {
     props: ['src', 'module', 'width', 'height', 'externalProgress', 'unityLoader'],
     components: {
-      Unity,
+      PortalVue,
     },
     name: 'UnityWebGL',
     data () {
